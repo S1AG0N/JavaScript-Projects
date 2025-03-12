@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Voting System</title>
+    <script src="JS/main.js" defer></script> <!-- Use defer to ensure script loads after HTML -->
+</head>
+<body align="center">
+    <h2>INTERACTIVE VOTING SYSTEM</h2>
+    <h3>Terms and Conditions</h3>
+    
+    <p>You are only allowed to vote if you provide information for all the below fields.</p>
+    <p>You are only allowed to vote if you are 18 years and above.</p>
+    <strong>
+        <label for="fullname">FULLNAME:</label>
+        <input id="fullname" type="text"><br><br>
+        <label for="age">AGE:</label>
+        <input id="age" type="number"><br><br>
+        <label for="location">COUNTY:</label>  
+        <input type="text" id="location"><br><br>
+    </strong>
+    <strong>
+        <button id="submitBtn" onclick="the_func()">SUBMIT!</button>
+        <br>
+        <p id="confirmation"></p>
+    </strong>
+
+    <hr>
+
+    <p id="Time_of_day"></p>
+    <button onclick="Time_function()">Click here to get the time.</button>
+</body>
+</html>
