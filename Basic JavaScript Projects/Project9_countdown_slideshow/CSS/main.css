@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 20px;
+}
+/* Countdown Styling */
+#timer {
+    font-size: 36px;
+    margin: 20px;
+}
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+}
+/* Slideshow Styling */
+.slideshow-container {
+    max-width: 600px;
+    position: relative;
+    margin: 20px auto;
+}
+.slide {
+    display: none; /* Hide all slides by default */
+    width: 100%;
+}
+.slide.active {
+    display: block; /* Show only the active slide */
+}
+img {
+    width: 100%;
+    height: auto;
+}
+
+/* Arrow Styling */
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 40px;
+    height: 40px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    font-size: 24px;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    user-select: none;
+}
+.prev {
+    left: 10px;
+}
+.next {
+    right: 10px;
+}
+
+/* Dots Styling */
+.dots-container {
+    margin-top: 10px;
+}
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 5px;
+    background-color: grey; /* Inactive dot color */
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.3s;
+}
+.dot.active {
+    background-color: darkgrey; /* Active dot color */
+}
