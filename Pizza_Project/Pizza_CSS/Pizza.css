@@ -1,0 +1,142 @@
+body {
+    background-color: #f9e9d8;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-family: 'Georgia', serif;
+    color: #5b3c2a;
+    text-align: center;
+    font-size: 2.2em;
+    margin-bottom: 10px;
+}
+
+h3 {
+    font-family: 'Verdana', sans-serif;
+    color: #2e4f7a;
+    font-size: 1.2em;
+    margin-bottom: 8px;
+}
+
+div {
+    color: #333333;
+    font-family: 'Arial', sans-serif;
+}
+
+#menuBG {
+    width: 600px;
+    height: 680px;
+    margin: 20px auto;
+    background-color: #fff8e1;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+#frmMenu {
+    width: 600px;
+    height: 260px;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+#totalPrice {
+    width: 200px;
+    height: 160px;
+    margin: 0;
+    float: right;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+}
+
+.left {
+    width: 180px;
+    height: 240px;
+    background-color: #e3f2fd;
+    border-radius: 5px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.center {
+    width: 180px;
+    height: 240px;
+    background-color: #e6ffe6;
+    border-radius: 5px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.right {
+    width: 180px;
+    height: 240px;
+    background-color: #fce4ec;
+    border-radius: 5px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+#showText {
+    width: 200px;
+    height: 250px;
+    margin: 0;
+    float: left;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    padding: 10px;
+    overflow-y: auto;
+}
+
+#cart {
+    width: 590px; /* Reduced to fit within #menuBG (600px - 40px padding) */
+    height: 300px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    clear: both;ß
+    margin-top: 20px;
+    box-sizing: border-box; /* Ensures padding doesn't increase width */
+}
+
+#btnOrder {
+    width: 120px;
+    height: 45px;
+    display: block;
+    margin: 15px auto;
+    background-color: #ff6f61;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#btnOrder:hover {
+    background-color: #ff4f41;
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+    margin-right: 5px;
+    accent-color: #ff6f61;
+}
+
+input[type="checkbox"] + label,
+input[type="radio"] + label {
+    transition: color 0.3s ease;
+    font-size: 0.95em;
+    display: inline-block;
+    white-space: nowrap;
+}
+
+input[type="checkbox"]:hover + label,
+input[type="radio"]:hover + label {
+    color: #ff6f61;
+}
