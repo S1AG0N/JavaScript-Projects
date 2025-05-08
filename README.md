@@ -1,10 +1,40 @@
-Welcome to JavaScript Projects! 🚀
+JavaScript Projects
 
-This repository is a collection of various JavaScript projects, ranging from beginner-friendly exercises to more advanced applications. It will include:
+✨ Welcome to my JavaScript Projects! ✨
+These are some small, fun projects I crafted using JavaScript to showcase my skills and creativity.
 
-Frontend Projects – Interactive web applications using HTML, CSS, and JavaScript.
-Backend Projects – Server-side applications built with Node.js and related frameworks.
-Algorithms & Data Structures – Practice problems to improve JavaScript coding skills.
-APIs & Integrations – Projects that interact with external APIs and services.
-Automation Scripts – Useful scripts to automate repetitive tasks.
-Whether you're learning JavaScript, exploring new concepts, or looking for inspiration, feel free to browse, contribute, and experiment with the code! 🚀💻
+
+
+🎉 Projects
+
+
+
+
+
+🍕 Pizza Menu
+
+
+
+🎲 Tic-Tac-Toe Game
+
+
+
+🧮 Calculator
+
+
+
+🍕 Pizza Menu
+
+This project is a vibrant menu designed to let you order pizza with a delicious variety of toppings. It seamlessly takes your input and calculates the price for your order with ease!
+
+
+
+🎲 Tic-Tac-Toe Game
+
+Experience the classic game of tic-tac-toe with a twist! A random dice roll decides which of the two players goes first, kicking off an exciting match. Players can choose their tokens, and the winner is celebrated with festive music and flashing lights! 🎶💡
+
+
+
+🧮 Calculator
+
+A sleek and stylish 4-function calculator built for the web. Perform addition, subtraction, multiplication, and division effortlessly with this modern tool! 🚀
